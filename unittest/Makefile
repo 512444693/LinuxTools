@@ -23,7 +23,7 @@ $(TARGET) : gtest.o $(TESTED_DIR)/obj/$(TESTED_NAME).o
 	$(CXX) -c $(CXXFLAGS) $(INCLUDE) $^ -o $@
 
 report :
-	-cp $(TESTED_DIR)/src/*/*.cpp $(TESTED_DIR)/obj
+	-cp -p $(TESTED_DIR)/src/*/*.cpp $(TESTED_DIR)/obj
 	lcov -d ../ -c -o report.info
 	genhtml report.info -o $(HTML_DIR)
 

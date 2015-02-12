@@ -32,7 +32,7 @@ $(TARGET) : gtest.o $(TESTED_DIR)/obj/$(TESTED_NAME).o
 
 #生成测试报告，将被测试程序的源码文件拷贝到obj目录
 report :
-	-cp $(TESTED_DIR)/src/*/*.cpp $(TESTED_DIR)/obj
+	-cp -p $(TESTED_DIR)/src/*/*.cpp $(TESTED_DIR)/obj
 	lcov -d ../ -c -o report.info
 	genhtml report.info -o $(HTML_DIR)
 
