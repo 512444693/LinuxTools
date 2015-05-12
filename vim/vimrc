@@ -89,3 +89,6 @@ inoremap <expr> <C-U>      pumvisible()?"\<C-E>":"\<C-U>"
 "Set mapleader
 let mapleader = ","
 nmap <silent> <leader>t :NERDTreeToggle<cr> 
+"ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+"ctags -R --c++-kinds=+p --fields=+iaS --extra=+q framecommon/
+"ctags -Ra --c++-kinds=+p --fields=+iaS --extra=+q srvframe/
