@@ -4,8 +4,11 @@ set nocp
 filetype plugin indent on 
 "显示行标
 set nu
+
 set tags+=./tags
 set tags+=/opt/p2p_server/branches/matrix/server/tags
+set tags+=/usr/local/gmock-1.7.0/gtest/src/tags
+set tags+=/usr/local/gmock-1.7.0/src/tags
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree
@@ -53,6 +56,7 @@ nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "关闭omin提示预览窗口
 set completeopt=longest,menu 
+
 let OmniCpp_MayCompleteDot=1    "打开  . 操作符
 let OmniCpp_MayCompleteArrow=1  "打开 -> 操作符
 let OmniCpp_MayCompleteScope=1  "打开 :: 操作符
