@@ -68,8 +68,8 @@ let OmniCpp_SelectFirstItem = 2    "自动弹出时自动跳至第一个
 
 
 inoremap <expr> <CR>       pumvisible()?"\<C-Y>":"\<CR>"
-inoremap <expr> <C-J>      pumvisible()?"\<PageDown>\<C-N>\<C-P>":"\<C-X><C-O>"
-inoremap <expr> <C-K>      pumvisible()?"\<PageUp>\<C-P>\<C-N>":"\<C-K>"
+inoremap <expr> <C-F>      pumvisible()?"\<PageDown>\<C-N>\<C-P>":"\<C-X><C-O>"
+inoremap <expr> <C-B>      pumvisible()?"\<PageUp>\<C-P>\<C-N>":"\<C-K>"
 inoremap <expr> <C-U>      pumvisible()?"\<C-E>":"\<C-U>" 
 
 
