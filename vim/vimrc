@@ -2,8 +2,10 @@
 set nocp
 "文件类型检测
 filetype plugin indent on 
-"关闭omin提示预览窗口
-set completeopt=longest,menu 
+"显示行标
+set nu
+set tags+=./tags
+set tags+=/opt/p2p_server/branches/matrix/server/tags
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree
@@ -49,17 +51,30 @@ nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " omini setting
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"关闭omin提示预览窗口
+set completeopt=longest,menu 
+let OmniCpp_MayCompleteDot=1    "打开  . 操作符
+let OmniCpp_MayCompleteArrow=1  "打开 -> 操作符
+let OmniCpp_MayCompleteScope=1  "打开 :: 操作符
+let OmniCpp_NamespaceSearch=1   "打开命名空间
+let OmniCpp_GlobalScopeSearch=1  
+let OmniCpp_DefaultNamespace=["std"]  
+let OmniCpp_ShowPrototypeInAbbr=1  "打开显示函数原型
+let OmniCpp_SelectFirstItem = 2    "自动弹出时自动跳至第一个
+
+
 inoremap <expr> <CR>       pumvisible()?"\<C-Y>":"\<CR>"
 inoremap <expr> <C-J>      pumvisible()?"\<PageDown>\<C-N>\<C-P>":"\<C-X><C-O>"
 inoremap <expr> <C-K>      pumvisible()?"\<PageUp>\<C-P>\<C-N>":"\<C-K>"
 inoremap <expr> <C-U>      pumvisible()?"\<C-E>":"\<C-U>" 
 
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " supertab setting
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:SuperTabRetainCompletionType = 2
-let g:SuperTabDefaultCompletionType = "<C-X><C-O>" 
+"let g:SuperTabRetainCompletionType = 2
+"let g:SuperTabDefaultCompletionType = "<C-X><C-O>" 
 
 
 
