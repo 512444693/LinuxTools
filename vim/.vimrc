@@ -7,12 +7,14 @@ set nu
 
 "没有源码
 set tags+=~/.vim/mytags/stl_tags
-"源码位置 /opt/p2p_server/branches/matrix/server/framecommon/
-"	/opt/p2p_server/branches/matrix/server/srvframe
+"源码位置 /opt/p2p_server/branches/matrix/server/framecommon/src/
+"	/opt/p2p_server/branches/matrix/server/srvframe/src/
 set tags+=~/.vim/mytags/frame_srv_tags
 "源码位置 /usr/local/gmock-1.7.0/gtest/src/ 
 "	/usr/local/gmock-1.7.0/src
 set tags+=~/.vim/mytags/gtest_gmock_tags
+"源码位置 /usr/include/
+set tags+=~/.vim/mytags/usr_include_tags
 set tags+=./tags
 set tags+=/usr/local/gmock-1.7.0/gtest/src/tags
 set tags+=/usr/local/gmock-1.7.0/src/tags
