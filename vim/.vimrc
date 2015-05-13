@@ -5,9 +5,15 @@ filetype plugin indent on
 "显示行标
 set nu
 
-set tags+=~/.vim/mytags/stltags
+"没有源码
+set tags+=~/.vim/mytags/stl_tags
+"源码位置 /opt/p2p_server/branches/matrix/server/framecommon/
+"	/opt/p2p_server/branches/matrix/server/srvframe
+set tags+=~/.vim/mytags/frame_srv_tags
+"源码位置 /usr/local/gmock-1.7.0/gtest/src/ 
+"	/usr/local/gmock-1.7.0/src
+set tags+=~/.vim/mytags/gtest_gmock_tags
 set tags+=./tags
-set tags+=/opt/p2p_server/branches/matrix/server/tags
 set tags+=/usr/local/gmock-1.7.0/gtest/src/tags
 set tags+=/usr/local/gmock-1.7.0/src/tags
 
@@ -64,7 +70,7 @@ let OmniCpp_MayCompleteScope=1  "打开 :: 操作符
 let OmniCpp_NamespaceSearch=2   "search namespaces in the current buffer and in included files
 let OmniCpp_DisplayMode = 1
 let OmniCpp_GlobalScopeSearch=1  
-let OmniCpp_DefaultNamespace=["std", "MYFRAMECOMMON"]  
+let OmniCpp_DefaultNamespaces=["std", "MYFRAMECOMMON", "testing"]  
 let OmniCpp_ShowPrototypeInAbbr=1  "打开显示函数原型
 let OmniCpp_SelectFirstItem = 2    "自动弹出时自动跳至第一个
 
