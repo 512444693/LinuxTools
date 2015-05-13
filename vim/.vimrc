@@ -83,6 +83,18 @@ inoremap <expr> <C-U>      pumvisible()?"\<C-E>":"\<C-U>"
 "let g:SuperTabDefaultCompletionType = "<C-X><C-O>" 
 
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Winmanager setting
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:NERDTree_title="[NERDTree]"
+let g:winManagerWindowLayout="NERDTree|TagList"  
+function! NERDTree_Start()  
+	exec 'NERDTree'  
+endfunction  ]
+function! NERDTree_IsValid()  
+	return 1  
+endfunction  
+nmap wm :WMToggle<CR>  
 
 
 
