@@ -5,6 +5,8 @@ filetype plugin indent on
 "显示行标
 set nu
 
+set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936
+
 "没有源码
 set tags+=~/.vim/mytags/stl_tags
 "源码位置 /opt/p2p_server/branches/matrix/server/framecommon/src/
