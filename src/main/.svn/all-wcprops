@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/main
+END
+mxrmessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/main/mxrmessage.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/p2p_server/!svn/ver/10113/branches/matrix/server/reallive/mxrsessionmsg/src/main/main.cpp
+END
+mxrmessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/main/mxrmessage.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/p2p_server/!svn/ver/10113/branches/matrix/server/reallive/mxrsessionmsg/src/main/makefile
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/p2p_server/!svn/ver/12304/branches/matrix/server/reallive/mxrsessionmsg/src/common
+END
+userhashtable.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/p2p_server/!svn/ver/10113/branches/matrix/server/reallive/mxrsessionmsg/src/common/userhashtable.h
+END
+sessionhashtable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/p2p_server/!svn/ver/12122/branches/matrix/server/reallive/mxrsessionmsg/src/common/sessionhashtable.cpp
+END
+mxrmessagedef.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/p2p_server/!svn/ver/12304/branches/matrix/server/reallive/mxrsessionmsg/src/common/mxrmessagedef.h
+END
+httpreply.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/common/httpreply.h
+END
+utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/common/utils.cpp
+END
+threadmsgbody.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/p2p_server/!svn/ver/12012/branches/matrix/server/reallive/mxrsessionmsg/src/common/threadmsgbody.h
+END
+myclassfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/common/myclassfactory.cpp
+END
+sessionhashtable.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/p2p_server/!svn/ver/12053/branches/matrix/server/reallive/mxrsessionmsg/src/common/sessionhashtable.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/common/utils.h
+END
+myhttptaskprocess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/p2p_server/!svn/ver/12304/branches/matrix/server/reallive/mxrsessionmsg/src/common/myhttptaskprocess.cpp
+END
+myclassfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/p2p_server/!svn/ver/10113/branches/matrix/server/reallive/mxrsessionmsg/src/common/myclassfactory.h
+END
+myhttptaskprocess.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/common/myhttptaskprocess.h
+END
+mxrmessageconf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/p2p_server/!svn/ver/12304/branches/matrix/server/reallive/mxrsessionmsg/src/common/mxrmessageconf.cpp
+END
+mxrmessageconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/p2p_server/!svn/ver/12304/branches/matrix/server/reallive/mxrsessionmsg/src/common/mxrmessageconf.h
+END
+userhashtable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/p2p_server/!svn/ver/12012/branches/matrix/server/reallive/mxrsessionmsg/src/common/userhashtable.cpp
+END
+httpreply.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/p2p_server/!svn/ver/12090/branches/matrix/server/reallive/mxrsessionmsg/src/common/httpreply.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/p2p_server/!svn/ver/10113/branches/matrix/server/reallive/mxrsessionmsg/src/common/makefile
+END
