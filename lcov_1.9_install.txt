@@ -1,0 +1,15 @@
+
+
+    # wget http://downloads.sourceforge.net/ltp/lcov-1.9.tar.gz
+
+    # tar -zxvf lcov-1.9.tar.gz
+
+    # cd lcov-1.9
+
+    # ls
+
+    bin      contrib  descriptions.tests  lcovrc    man     rpm
+
+    CHANGES  COPYING  example             Makefile  README
+
+    # make install
