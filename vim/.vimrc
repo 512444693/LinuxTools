@@ -18,6 +18,8 @@ set tags+=~/.vim/mytags/gtest_gmock_tags
 "源码位置 /usr/include/
 set tags+=~/.vim/mytags/usr_include_tags
 set tags+=./tags
+set tags+=../tags
+set tags+=../../tags
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree
